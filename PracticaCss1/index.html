@@ -1,40 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="fotos.js"></script>
 </head>
 
 <body>
+    <!-- HEADER ------------------------------------------------------------------------------------>
     <header>
         <nav>
             <!-- NAV IZQUIERDA -->
-            <ul>
-                <li class="genero">
-                    Mujer
-                </li>
-                <li class="genero">
-                    Hombre
-                </li>
-            </ul>
+            <div id="navLeft" class="navPart">
+                <ul class="navList navTop">
+                    <li class="genero selected">
+                        Mujer
+                    </li>
+                    <li class="genero">
+                        Hombre
+                    </li>
+                </ul>
+
+                <!-- FLOTANTE -->
+                <div id="NavFloating" class="navBottom">
+                    <ul>
+                        <li>Novedades</li>
+                        <li class="selected">Ropa</li>
+                        <li>P&B by Rosalía</li>
+                        <li>Zapatos</li>
+                        <li>Accesorios</li>
+                        <li>Editorials</li>
+                        <li>Join Life</li>
+                        <li class="special">Promociones</li>
+                    </ul>
+                </div>
+            </div>
 
             <!-- CENTRO -->
-            <div id="navCentro" class="centrado">
-                <h1>PULL & BEAR</h1>
-                <ol class="breadcrumb">
+            <div id="navCenter" class="navPart">
+                <h1 class="navTop">PULL & BEAR</h1>
+                <ol class="breadcrumb navBottom">
                     <li>Mujer</li>
-                    <li>Ropa</li>
-                    <li>Camisetas</li>
-                    <li class="activate">Licencias (51 artículos)</li>
+                    <li>&gtRopa</li>
+                    <li>&gtCamisetas</li>
+                    <li class="selected">&gtLicencias (51 artículos)</li>
                 </ol>
             </div>
 
             <!-- DERECHA -->
+            <div id="navRight" class="navPart floatRight">
+                <div class="navTop textRight">
+                    <input type="text" class="inputCorporate" placeholder="Buscar">
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                </div>
+
+                <div class="navBottom textRight">
+                    <ul class="navList">
+                        <li>
+                            Vista <span>2</span><span>4</span>
+                        </li>
+                        <li>
+                            Ordenar por
+                        </li>
+                        <li>
+                            Filtros
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+
+    <main>
+
+    </main>
+
+    <!-- PREFOOTER --------------------------------------------------------------------------------->
+    <section id="newsletter" class="textCenter sectionLineTop">
+        <h2>10% DE DESCUENTO...</h2>
+        <h3>¡SUSCRÍBETE A LA NEWSLETTER!*</h3>
+
+        <form action="#">
+            <div class="emailInput">
+                <label for="email">Introduce tu email</label>
+                <input type="email" class="inputCorporate">
+            </div>
+        </form>
+    </section>
+
+    <!-- FOOTER ------------------------------------------------------------------------------------>
+    <footer class="sectionLineTop">
+        <ol>
+            <li class="footerColumns">
+                <ul>
+                    <li class="listTittle">Guía de Compra</li>
+                    <li>Preguntas Frecuentes</li>
+                    <li>Pago</li>
+                    <li>Envío</li>
+                    <li>Devoluciones</li>
+                    <li>Cambios</li>
+                    <li>Ticket Regalo</li>
+                    <li>Compra a través de iPod en Tienda</li>
+                    <li>Disponibilidad de Artículos</li>
+                    <li>Modificaciones de datos y pedidos</li>
+                </ul>
+            </li>
+
+            <li class="footerColumns">
+                <ul>
+                    <li class="listTittle">Servicios</li>
+                    <li>Affinity Card</li>
+                    <li>Tarjeta Regalo</li>
+                    <li>Arreglos *</li>
+                    <li>Cuidado de prendas</li>
+                    <li>Cuidado de calzado</li>
+                    <li>* Exclusivo en tiendas físicas</li>
+                </ul>
+            </li>
+
+            <li class="footerColumns">
+                <ul>
+                    <li class="listTittle">Empresa</li>
+                    <li>Quiénes somos</li>
+                    <li>Oficinas</li>
+                    <li>Tiendas</li>
+                    <li>Localizador de tiendas</li>
+                    <li>Trabaja con nosotros</li>
+                    <li>Francicias</li>
+                </ul>
+            </li>
+
+            <li class="footerColumns">
+                <ul>
+                    <li class="listTittle">Políticas</li>
+                    <li>Política medioambiental</li>
+                    <li>Trato a los animales</li>
+                    <li>Política de privacidad</li>
+                    <li>Condiciones de compra</li>
+                    <li>Política de cookies</li>
+                </ul>
+            </li>
+
+            <li class="footerColumns">
+                <ul>
+                    <li class="listTittle">Social</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Pinterest</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                    <li>Spotify</li>
+                </ul>
+            </li>
+
+            <li class="footerColumns">
+                <ul>
+                    <li class="listTittle">Métodos de pago</li>
+                    <li>Visa</li>
+                    <li>MasteCard</li>
+                    <li>Amex</li>
+                    <li>Affinity</li>
+                    <li>Paypal</li>
+                    <li>Tarjeta Regalo</li>
+                    <li>Pago en tienda</li>
+                    <li>Discount</li>
+                    <li>Transferencia Bancaria Online</li>
+                </ul>
+            </li>
+        </ol>
+    </footer>
 </body>
 
 </html>
