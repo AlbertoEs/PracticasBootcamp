@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="fotos.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="fotos.js"></script>-->
 </head>
 
 <body>
@@ -22,24 +22,24 @@
             <div id="navLeft" class="navPart">
                 <ul class="navList navTop">
                     <li class="genero selected">
-                        Mujer
+                        <a href="#">Mujer</a>
                     </li>
                     <li class="genero">
-                        Hombre
+                        <a href="#">Hombre</a>
                     </li>
                 </ul>
 
                 <!-- FLOTANTE -->
                 <div id="NavFloating" class="navBottom">
                     <ul>
-                        <li>Novedades</li>
-                        <li class="selected">Ropa</li>
-                        <li>P&B by Rosalía</li>
-                        <li>Zapatos</li>
-                        <li>Accesorios</li>
-                        <li>Editorials</li>
-                        <li>Join Life</li>
-                        <li class="special">Promociones</li>
+                        <li><a href="#">Novedades</a></li>
+                        <li class="selected"><a href="#">Ropa</a></li>
+                        <li><a href="#">P&B by Rosalía</a></li>
+                        <li><a href="#">Zapatos</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="#">Editorials</a></li>
+                        <li><a href="#">Join Life</a></li>
+                        <li class="special"><a href="#">Promociones</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,10 +48,10 @@
             <div id="navCenter" class="navPart">
                 <h1 class="navTop">PULL & BEAR</h1>
                 <ol class="breadcrumb navBottom">
-                    <li>Mujer</li>
-                    <li>&gtRopa</li>
-                    <li>&gtCamisetas</li>
-                    <li class="selected">&gtLicencias (51 artículos)</li>
+                    <li><a href="#">Mujer</a></li>
+                    <li>&gt<a href="#">Ropa</a></li>
+                    <li>&gt<a href="#">Camisetas</a></li>
+                    <li class="selected">&gt<a href="#">Licencias (51 artículos)</a></li>
                 </ol>
             </div>
 
@@ -65,14 +65,14 @@
 
                 <div class="navBottom textRight">
                     <ul class="navList">
-                        <li>
-                            Vista <span>2</span><span>4</span>
+                        <li id="rightViewA">
+                            <a href="#">Vista <span>2</span><span>4</span></a>
                         </li>
                         <li>
-                            Ordenar por
+                            <a href="#">Ordenar por</a>
                         </li>
                         <li>
-                            Filtros
+                            <a href="#">Filtros</a>
                         </li>
                     </ul>
                 </div>
@@ -81,7 +81,258 @@
     </header>
 
     <main>
-
+        <div class="productLine">
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 1">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 1</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 2">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 2</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 3">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 3</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 4">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 4</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="productLine">
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 5">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 5</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 6">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 6</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 7">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 7</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 8">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 8</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="productLine">
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 9">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 9</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 10">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 10</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 11">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 11</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 12">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 12</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="productLine">
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 13">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 13</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 14">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 14</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 15">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 15</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 16">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 16</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="productLine">
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 17">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 17</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 18">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 18</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 19">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 19</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 20">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 20</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="productLine">
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 21">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 21</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 22">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 22</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 23">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 23</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+            <figure class="product">
+                <img src="https://picsum.photos/200/300" alt="Imagen de ropa 24">
+                <div class="productTags">
+                    <div class="tag productTag">Tag</div>
+                </div>
+                <figcaption>
+                    <p class="productName">Camiseta iterada 24</p>
+                    <p class="productPrice">12,99€</p>
+                </figcaption>
+            </figure>
+        </div>
     </main>
 
     <!-- PREFOOTER --------------------------------------------------------------------------------->
@@ -103,77 +354,77 @@
             <li class="footerColumns">
                 <ul>
                     <li class="listTittle">Guía de Compra</li>
-                    <li>Preguntas Frecuentes</li>
-                    <li>Pago</li>
-                    <li>Envío</li>
-                    <li>Devoluciones</li>
-                    <li>Cambios</li>
-                    <li>Ticket Regalo</li>
-                    <li>Compra a través de iPod en Tienda</li>
-                    <li>Disponibilidad de Artículos</li>
-                    <li>Modificaciones de datos y pedidos</li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Pago</a></li>
+                    <li><a href="#">Envío</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="#">Cambios</a></li>
+                    <li><a href="#">Ticket Regalo</a></li>
+                    <li><a href="#">Compra a través de iPod en Tienda</a></li>
+                    <li><a href="#">Disponibilidad de Artículos</a></li>
+                    <li><a href="#">Modificaciones de datos y pedidos</a></li>
                 </ul>
             </li>
 
             <li class="footerColumns">
                 <ul>
                     <li class="listTittle">Servicios</li>
-                    <li>Affinity Card</li>
-                    <li>Tarjeta Regalo</li>
-                    <li>Arreglos *</li>
-                    <li>Cuidado de prendas</li>
-                    <li>Cuidado de calzado</li>
-                    <li>* Exclusivo en tiendas físicas</li>
+                    <li><a href="#">Affinity Card</a></li>
+                    <li><a href="#">Tarjeta Regalo</a></li>
+                    <li><a href="#">Arreglos *</a></li>
+                    <li><a href="#">Cuidado de prendas</a></li>
+                    <li><a href="#">Cuidado de calzado</a></li>
+                    <li><a href="#">* Exclusivo en tiendas físicas</a></li>
                 </ul>
             </li>
 
             <li class="footerColumns">
                 <ul>
                     <li class="listTittle">Empresa</li>
-                    <li>Quiénes somos</li>
-                    <li>Oficinas</li>
-                    <li>Tiendas</li>
-                    <li>Localizador de tiendas</li>
-                    <li>Trabaja con nosotros</li>
-                    <li>Francicias</li>
+                    <li><a href="#">Quiénes somos</a></li>
+                    <li><a href="#">Oficinas</a></li>
+                    <li><a href="#">Tiendas</a></li>
+                    <li><a href="#">Localizador de tiendas</a></li>
+                    <li><a href="#">Trabaja con nosotros</a></li>
+                    <li><a href="#">Francicias</a></li>
                 </ul>
             </li>
 
             <li class="footerColumns">
                 <ul>
                     <li class="listTittle">Políticas</li>
-                    <li>Política medioambiental</li>
-                    <li>Trato a los animales</li>
-                    <li>Política de privacidad</li>
-                    <li>Condiciones de compra</li>
-                    <li>Política de cookies</li>
+                    <li><a href="#">Política medioambiental</a></li>
+                    <li><a href="#">Trato a los animales</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Condiciones de compra</a></li>
+                    <li><a href="#">Política de cookies</a></li>
                 </ul>
             </li>
 
             <li class="footerColumns">
                 <ul>
                     <li class="listTittle">Social</li>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Pinterest</li>
-                    <li>Instagram</li>
-                    <li>Youtube</li>
-                    <li>Spotify</li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Spotify</a></li>
                 </ul>
             </li>
 
             <li class="footerColumns">
                 <ul>
                     <li class="listTittle">Métodos de pago</li>
-                    <li>Visa</li>
-                    <li>MasteCard</li>
-                    <li>Amex</li>
-                    <li>Affinity</li>
-                    <li>Paypal</li>
-                    <li>Tarjeta Regalo</li>
-                    <li>Pago en tienda</li>
-                    <li>Discount</li>
-                    <li>Transferencia Bancaria Online</li>
+                    <li><a href="#">Visa</a></li>
+                    <li><a href="#">MasteCard</a></li>
+                    <li><a href="#">Amex</a></li>
+                    <li><a href="#">Affinity</a></li>
+                    <li><a href="#">Paypal</a></li>
+                    <li><a href="#">Tarjeta Regalo</a></li>
+                    <li><a href="#">Pago en tienda</a></li>
+                    <li><a href="#">Discount</a></li>
+                    <li><a href="#">Transferencia Bancaria Online</a></li>
                 </ul>
             </li>
         </ol>

@@ -7,6 +7,14 @@ h1, h2, h3 {
     margin: 0px;
 }
 
+a {
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+}
+
 ul, ol {
     list-style: none;
     padding-left: 0;
@@ -29,8 +37,11 @@ figure {
 .selected {
     font-weight: bold;
 }
-.special {
+.special a {
     color: orange;
+}
+.special a:hover {
+    color: rgb(255, 123, 0);
 }
 .sectionLineTop {
     border-top: 1px solid rgb(196, 196, 196);
@@ -47,6 +58,16 @@ nav {
 
     height: 65px;
     width: 100%;
+
+    z-index: 10;
+}
+
+#rightViewA span {
+    margin-right: 5px;
+}
+
+#rightViewA a span:last-child {
+    color: rgb(0, 122, 16);
 }
 
 .navTop {
@@ -85,7 +106,6 @@ nav {
 
 /* NavFloating */
 #NavFloating {
-    position: fixed;
     top: 40px;
 }
 #NavFloating li {
@@ -132,6 +152,20 @@ main {
 
 .productPrice {
     font-weight: bold;
+}
+
+/* TAG */
+.productTags {
+    position: relative;
+    margin-top: -28px;
+    margin-left: 20px;
+    text-align: left;
+}
+.tag {
+    background-color: rgb(255, 255, 255);
+    padding: 2px 4px 2px 4px;
+    border-radius: 4px;
+    display: inline;
 }
 
 
