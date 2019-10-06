@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ejercicio {
+    padding: 20px 0;
+}
+
+
+#flex-box {
+    background: #002958;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /*align-items: stretch;*/
+
+    height: 700px;
+    width: 100%;
+}
+
+#flex-box .flex-son {
+    border-radius: 5px;
+    background: #a2cbfa;
+    border: 1px solid #7da5d1;
+
+    margin: 10px;
+
+    flex-basis: 30%;
+}
+
+
+
+
+#flex-canvas {
+    background: #00442d;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    /*align-items: stretch;*/
+
+    height: 500px;
+    width: 100%;
+}
+
+#flex-canvas .flex-son {
+    border-radius: 5px;
+    background: #a2fadd;
+    border: 1px solid #7dd1bf;
+
+    flex-basis: 15%;
+}
+
+
+
+/*.special {
+    background: #00489b;
+    border: 1px solid #002042;
+    flex-grow: 5;
+}*/
