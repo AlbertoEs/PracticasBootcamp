@@ -1,0 +1,47 @@
+.b-gallery__item {
+  margin: 0;
+  overflow: hidden;
+}
+
+.b-gallery__img {
+  width: 100%;
+  -webkit-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+.b-gallery__img:hover {
+  opacity: .8;
+  -webkit-animation: example 1s infinite;
+          animation: example 1s infinite;
+}
+
+@-webkit-keyframes example {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes example {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=style.css.map */

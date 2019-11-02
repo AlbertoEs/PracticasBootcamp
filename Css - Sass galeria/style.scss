@@ -1,0 +1,19 @@
+$font: Arial;
+$colores-bordes: rgb(138, 0, 80);
+
+.bk-title {
+    font-family: $font;
+}
+
+.bk-div-image {
+
+    border: 4px solid $colores-bordes;
+
+    &__figure {
+        padding: 20px;
+    }
+
+    &__image {
+        width: 100%;
+    }
+}

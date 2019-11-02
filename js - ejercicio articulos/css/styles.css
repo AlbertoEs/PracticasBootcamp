@@ -1,0 +1,32 @@
+.bk-title {
+  border-bottom: 1px solid #00c291;
+  margin-bottom: 20px;
+}
+
+.bk-article {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  overflow-y: auto;
+  height: 600px;
+}
+
+.bk-article__img {
+  width: 100%;
+}
+
+.bk-article__autor {
+  color: white;
+  float: right;
+  background: #00a08a;
+  padding: 0px 8px;
+  margin-top: 6px;
+  border-radius: 20px;
+}
+
+.bk-article__text {
+  margin-top: 50px;
+  color: #383838;
+  text-align: justify;
+}
+/*# sourceMappingURL=styles.css.map */

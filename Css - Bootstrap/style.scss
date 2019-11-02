@@ -1,0 +1,18 @@
+.container-fluid {
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+img:hover {
+    /* border: 3px solid rgb(243, 243, 243); */
+
+    z-index: 5000;
+}
+
+figure {
+    margin: 0;
+}

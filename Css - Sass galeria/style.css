@@ -1,0 +1,16 @@
+.bk-title {
+  font-family: Arial;
+}
+
+.bk-div-image {
+  border: 4px solid #8a0050;
+}
+
+.bk-div-image__figure {
+  padding: 20px;
+}
+
+.bk-div-image__image {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
